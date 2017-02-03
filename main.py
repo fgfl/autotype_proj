@@ -1,15 +1,20 @@
-import pdfminer.pdfparser as PDFPaser
-import pdfminer.pdfdocument as PDFDocument
-import pdfminer.pdfpage as PDFPage
-import pdfminer.pdfpage as PDFTextExtractionNotAllowed
-import pdfminer.pdfinterp as PDFResourceManager
-import pdfminer.pdfinterp as PDFPageInterpreter
-import pdfminer.pdfdevice as PDFDevice
+from pdfminer.pdfparser import PDFParser
+from pdfminer.pdfdocument import PDFDocument
+from pdfminer.pdfpage import PDFPage
+from pdfminer.pdfpage import PDFTextExtractionNotAllowed
+from pdfminer.pdfinterp import PDFResourceManager
+from pdfminer.pdfinterp import PDFPageInterpreter
+from pdfminer.pdfdevice import PDFDevice
+
+f_out = 'test.txt'
+# Open output text file
+fp_out = fopen(f_out, 'w')
 
 f_name = 'test.pdf'
+password = ''
 
 # Open a PDF file.
-fp = open('test.pdf', 'rb')
+fp = open(f_name, 'rb')
 # Create a PDF parser object associated with the file object.
 parser = PDFParser(fp)
 # Create a PDF document object that stores the document structure.
@@ -27,6 +32,9 @@ interpreter = PDFPageInterpreter(rsrcmgr, device)
 # Process each page contained in the document.
 for page in PDFPage.create_pages(document):
     interpreter.process_page(page)
+    
 
-
+# CLose fp's
+fp.close()
+fp_out.close()
 
