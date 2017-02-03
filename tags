@@ -1,0 +1,698 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Arcfour	pdfminer/arcfour.py	/^class Arcfour(object):$/;"	c
+BMPWriter	pdfminer/image.py	/^class BMPWriter(object):$/;"	c
+BitParser	pdfminer/ccitt.py	/^class BitParser(object):$/;"	c
+ByteSkip	pdfminer/ccitt.py	/^    class ByteSkip(Exception):$/;"	c	class:CCITTG4Parser
+CCITTFaxDecoder	pdfminer/ccitt.py	/^class CCITTFaxDecoder(CCITTG4Parser):$/;"	c
+CCITTG4Parser	pdfminer/ccitt.py	/^class CCITTG4Parser(BitParser):$/;"	c
+CFFFont	pdfminer/pdffont.py	/^class CFFFont(object):$/;"	c
+CMap	pdfminer/cmapdb.py	/^class CMap(CMapBase):$/;"	c
+CMapBase	pdfminer/cmapdb.py	/^class CMapBase(object):$/;"	c
+CMapDB	pdfminer/cmapdb.py	/^class CMapDB(object):$/;"	c
+CMapError	pdfminer/cmapdb.py	/^class CMapError(Exception):$/;"	c
+CMapNotFound	pdfminer/cmapdb.py	/^    class CMapNotFound(CMapError):$/;"	c	class:CMapDB
+CMapNotFound	pdfminer/pdffont.py	/^    class CMapNotFound(Exception):$/;"	c	class:TrueTypeFont
+CMapParser	pdfminer/cmapdb.py	/^class CMapParser(PSStackParser):$/;"	c
+CorruptDataError	pdfminer/lzw.py	/^class CorruptDataError(Exception):$/;"	c
+EOFB	pdfminer/ccitt.py	/^    class EOFB(Exception):$/;"	c	class:CCITTG4Parser
+EncodingDB	pdfminer/encodingdb.py	/^class EncodingDB(object):$/;"	c
+FileCMap	pdfminer/cmapdb.py	/^class FileCMap(CMap):$/;"	c
+FileUnicodeMap	pdfminer/cmapdb.py	/^class FileUnicodeMap(UnicodeMap):$/;"	c
+FontMetricsDB	pdfminer/pdffont.py	/^class FontMetricsDB(object):$/;"	c
+GETU32	pdfminer/rijndael.py	/^    def GETU32(x): return struct.unpack('>I', x)[0]$/;"	f	function:NROUNDS
+GETU32	pdfminer/rijndael.py	/^    def GETU32(x): return struct.unpack('>L', x)[0]$/;"	f	function:NROUNDS
+HTMLConverter	pdfminer/converter.py	/^class HTMLConverter(PDFConverter):$/;"	c
+INDEX	pdfminer/pdffont.py	/^    class INDEX(object):$/;"	c	class:CFFFont
+IdentityCMap	pdfminer/cmapdb.py	/^class IdentityCMap(CMapBase):$/;"	c
+ImageWriter	pdfminer/image.py	/^class ImageWriter(object):$/;"	c
+IndexAssigner	pdfminer/layout.py	/^class IndexAssigner(object):$/;"	c
+InvalidData	pdfminer/ccitt.py	/^    class InvalidData(Exception):$/;"	c	class:CCITTG4Parser
+KEYLENGTH	pdfminer/rijndael.py	/^def KEYLENGTH(keybits):$/;"	f
+LAParams	pdfminer/layout.py	/^class LAParams(object):$/;"	c
+LTAnno	pdfminer/layout.py	/^class LTAnno(LTItem, LTText):$/;"	c
+LTChar	pdfminer/layout.py	/^class LTChar(LTComponent, LTText):$/;"	c
+LTComponent	pdfminer/layout.py	/^class LTComponent(LTItem):$/;"	c
+LTContainer	pdfminer/layout.py	/^class LTContainer(LTComponent):$/;"	c
+LTCurve	pdfminer/layout.py	/^class LTCurve(LTComponent):$/;"	c
+LTExpandableContainer	pdfminer/layout.py	/^class LTExpandableContainer(LTContainer):$/;"	c
+LTFigure	pdfminer/layout.py	/^class LTFigure(LTLayoutContainer):$/;"	c
+LTImage	pdfminer/layout.py	/^class LTImage(LTComponent):$/;"	c
+LTItem	pdfminer/layout.py	/^class LTItem(object):$/;"	c
+LTLayoutContainer	pdfminer/layout.py	/^class LTLayoutContainer(LTContainer):$/;"	c
+LTLine	pdfminer/layout.py	/^class LTLine(LTCurve):$/;"	c
+LTPage	pdfminer/layout.py	/^class LTPage(LTLayoutContainer):$/;"	c
+LTRect	pdfminer/layout.py	/^class LTRect(LTCurve):$/;"	c
+LTText	pdfminer/layout.py	/^class LTText(object):$/;"	c
+LTTextBox	pdfminer/layout.py	/^class LTTextBox(LTTextContainer):$/;"	c
+LTTextBoxHorizontal	pdfminer/layout.py	/^class LTTextBoxHorizontal(LTTextBox):$/;"	c
+LTTextBoxVertical	pdfminer/layout.py	/^class LTTextBoxVertical(LTTextBox):$/;"	c
+LTTextContainer	pdfminer/layout.py	/^class LTTextContainer(LTExpandableContainer, LTText):$/;"	c
+LTTextGroup	pdfminer/layout.py	/^class LTTextGroup(LTTextContainer):$/;"	c
+LTTextGroupLRTB	pdfminer/layout.py	/^class LTTextGroupLRTB(LTTextGroup):$/;"	c
+LTTextGroupTBRL	pdfminer/layout.py	/^class LTTextGroupTBRL(LTTextGroup):$/;"	c
+LTTextLine	pdfminer/layout.py	/^class LTTextLine(LTTextContainer):$/;"	c
+LTTextLineHorizontal	pdfminer/layout.py	/^class LTTextLineHorizontal(LTTextLine):$/;"	c
+LTTextLineVertical	pdfminer/layout.py	/^class LTTextLineVertical(LTTextLine):$/;"	c
+LZWDecoder	pdfminer/lzw.py	/^class LZWDecoder(object):$/;"	c
+NROUNDS	pdfminer/rijndael.py	/^def NROUNDS(keybits):$/;"	f
+PDFBaseXRef	pdfminer/pdfdocument.py	/^class PDFBaseXRef(object):$/;"	c
+PDFCIDFont	pdfminer/pdffont.py	/^class PDFCIDFont(PDFFont):$/;"	c
+PDFColorSpace	pdfminer/pdfcolor.py	/^class PDFColorSpace(object):$/;"	c
+PDFContentParser	pdfminer/pdfinterp.py	/^class PDFContentParser(PSStackParser):$/;"	c
+PDFConverter	pdfminer/converter.py	/^class PDFConverter(PDFLayoutAnalyzer):$/;"	c
+PDFDestinationNotFound	pdfminer/pdfdocument.py	/^class PDFDestinationNotFound(PDFException):$/;"	c
+PDFDevice	pdfminer/pdfdevice.py	/^class PDFDevice(object):$/;"	c
+PDFDocument	pdfminer/pdfdocument.py	/^class PDFDocument(object):$/;"	c
+PDFEncryptionError	pdfminer/pdfdocument.py	/^class PDFEncryptionError(PDFException):$/;"	c
+PDFException	pdfminer/pdftypes.py	/^class PDFException(PSException):$/;"	c
+PDFFont	pdfminer/pdffont.py	/^class PDFFont(object):$/;"	c
+PDFFontError	pdfminer/pdffont.py	/^class PDFFontError(PDFException):$/;"	c
+PDFGraphicState	pdfminer/pdfinterp.py	/^class PDFGraphicState(object):$/;"	c
+PDFInterpreterError	pdfminer/pdfinterp.py	/^class PDFInterpreterError(PDFException):$/;"	c
+PDFLayoutAnalyzer	pdfminer/converter.py	/^class PDFLayoutAnalyzer(PDFTextDevice):$/;"	c
+PDFNoOutlines	pdfminer/pdfdocument.py	/^class PDFNoOutlines(PDFException):$/;"	c
+PDFNoValidXRef	pdfminer/pdfdocument.py	/^class PDFNoValidXRef(PDFSyntaxError):$/;"	c
+PDFNotImplementedError	pdfminer/pdftypes.py	/^class PDFNotImplementedError(PDFException):$/;"	c
+PDFObjRef	pdfminer/pdftypes.py	/^class PDFObjRef(PDFObject):$/;"	c
+PDFObject	pdfminer/pdftypes.py	/^class PDFObject(PSObject):$/;"	c
+PDFObjectNotFound	pdfminer/pdftypes.py	/^class PDFObjectNotFound(PDFException):$/;"	c
+PDFPage	pdfminer/pdfpage.py	/^class PDFPage(object):$/;"	c
+PDFPageAggregator	pdfminer/converter.py	/^class PDFPageAggregator(PDFLayoutAnalyzer):$/;"	c
+PDFPageInterpreter	pdfminer/pdfinterp.py	/^class PDFPageInterpreter(object):$/;"	c
+PDFParser	pdfminer/pdfparser.py	/^class PDFParser(PSStackParser):$/;"	c
+PDFPasswordIncorrect	pdfminer/pdfdocument.py	/^class PDFPasswordIncorrect(PDFEncryptionError):$/;"	c
+PDFResourceError	pdfminer/pdfinterp.py	/^class PDFResourceError(PDFException):$/;"	c
+PDFResourceManager	pdfminer/pdfinterp.py	/^class PDFResourceManager(object):$/;"	c
+PDFSimpleFont	pdfminer/pdffont.py	/^class PDFSimpleFont(PDFFont):$/;"	c
+PDFStandardSecurityHandler	pdfminer/pdfdocument.py	/^class PDFStandardSecurityHandler(object):$/;"	c
+PDFStandardSecurityHandlerV4	pdfminer/pdfdocument.py	/^class PDFStandardSecurityHandlerV4(PDFStandardSecurityHandler):$/;"	c
+PDFStandardSecurityHandlerV5	pdfminer/pdfdocument.py	/^class PDFStandardSecurityHandlerV5(PDFStandardSecurityHandlerV4):$/;"	c
+PDFStream	pdfminer/pdftypes.py	/^class PDFStream(PDFObject):$/;"	c
+PDFStreamParser	pdfminer/pdfparser.py	/^class PDFStreamParser(PDFParser):$/;"	c
+PDFSyntaxError	pdfminer/pdfparser.py	/^class PDFSyntaxError(PDFException):$/;"	c
+PDFTextDevice	pdfminer/pdfdevice.py	/^class PDFTextDevice(PDFDevice):$/;"	c
+PDFTextExtractionNotAllowed	pdfminer/pdfdocument.py	/^class PDFTextExtractionNotAllowed(PDFEncryptionError):$/;"	c
+PDFTextState	pdfminer/pdfinterp.py	/^class PDFTextState(object):$/;"	c
+PDFTrueTypeFont	pdfminer/pdffont.py	/^class PDFTrueTypeFont(PDFType1Font):$/;"	c
+PDFType1Font	pdfminer/pdffont.py	/^class PDFType1Font(PDFSimpleFont):$/;"	c
+PDFType3Font	pdfminer/pdffont.py	/^class PDFType3Font(PDFSimpleFont):$/;"	c
+PDFTypeError	pdfminer/pdftypes.py	/^class PDFTypeError(PDFException):$/;"	c
+PDFUnicodeNotDefined	pdfminer/pdffont.py	/^class PDFUnicodeNotDefined(PDFFontError):$/;"	c
+PDFValueError	pdfminer/pdftypes.py	/^class PDFValueError(PDFException):$/;"	c
+PDFXRef	pdfminer/pdfdocument.py	/^class PDFXRef(PDFBaseXRef):$/;"	c
+PDFXRefFallback	pdfminer/pdfdocument.py	/^class PDFXRefFallback(PDFXRef):$/;"	c
+PDFXRefStream	pdfminer/pdfdocument.py	/^class PDFXRefStream(PDFBaseXRef):$/;"	c
+PSBaseParser	pdfminer/psparser.py	/^class PSBaseParser(object):$/;"	c
+PSEOF	pdfminer/psparser.py	/^class PSEOF(PSException):$/;"	c
+PSException	pdfminer/psparser.py	/^class PSException(Exception):$/;"	c
+PSKeyword	pdfminer/psparser.py	/^class PSKeyword(PSObject):$/;"	c
+PSLiteral	pdfminer/psparser.py	/^class PSLiteral(PSObject):$/;"	c
+PSObject	pdfminer/psparser.py	/^class PSObject(object):$/;"	c
+PSStackParser	pdfminer/psparser.py	/^class PSStackParser(PSBaseParser):$/;"	c
+PSSymbolTable	pdfminer/psparser.py	/^class PSSymbolTable(object):$/;"	c
+PSSyntaxError	pdfminer/psparser.py	/^class PSSyntaxError(PSException):$/;"	c
+PSTypeError	pdfminer/psparser.py	/^class PSTypeError(PSException):$/;"	c
+PSValueError	pdfminer/psparser.py	/^class PSValueError(PSException):$/;"	c
+PUTU32	pdfminer/rijndael.py	/^    def PUTU32(x): return struct.pack('>I', x)$/;"	f	function:NROUNDS
+PUTU32	pdfminer/rijndael.py	/^    def PUTU32(x): return struct.pack('>L', x)$/;"	f	function:NROUNDS
+Parser	pdfminer/ccitt.py	/^    class Parser(CCITTG4Parser):$/;"	c	function:main
+Plane	pdfminer/utils.py	/^class Plane(object):$/;"	c
+PyCMap	pdfminer/cmapdb.py	/^class PyCMap(CMap):$/;"	c
+PyUnicodeMap	pdfminer/cmapdb.py	/^class PyUnicodeMap(UnicodeMap):$/;"	c
+RKLENGTH	pdfminer/rijndael.py	/^def RKLENGTH(keybits):$/;"	f
+RM	pdfminer/Makefile	/^RM=rm -f$/;"	m
+RijndaelDecryptor	pdfminer/rijndael.py	/^class RijndaelDecryptor(object):$/;"	c
+RijndaelEncryptor	pdfminer/rijndael.py	/^class RijndaelEncryptor(object):$/;"	c
+TagExtractor	pdfminer/pdfdevice.py	/^class TagExtractor(PDFDevice):$/;"	c
+TextConverter	pdfminer/converter.py	/^class TextConverter(PDFConverter):$/;"	c
+TrueTypeFont	pdfminer/pdffont.py	/^class TrueTypeFont(object):$/;"	c
+Type1FontHeaderParser	pdfminer/pdffont.py	/^class Type1FontHeaderParser(PSStackParser):$/;"	c
+UnicodeMap	pdfminer/cmapdb.py	/^class UnicodeMap(CMapBase):$/;"	c
+XMLConverter	pdfminer/converter.py	/^class XMLConverter(PDFConverter):$/;"	c
+__contains__	pdfminer/pdftypes.py	/^    def __contains__(self, name):$/;"	m	class:PDFStream	file:
+__contains__	pdfminer/utils.py	/^    def __contains__(self, obj):$/;"	m	class:Plane	file:
+__ge__	pdfminer/layout.py	/^    def __ge__(self, _):$/;"	m	class:LTComponent	file:
+__getitem__	pdfminer/pdffont.py	/^        def __getitem__(self, i):$/;"	m	class:CFFFont.INDEX	file:
+__getitem__	pdfminer/pdftypes.py	/^    def __getitem__(self, name):$/;"	m	class:PDFStream	file:
+__gt__	pdfminer/layout.py	/^    def __gt__(self, _):$/;"	m	class:LTComponent	file:
+__init__	pdfminer/arcfour.py	/^    def __init__(self, key):$/;"	m	class:Arcfour
+__init__	pdfminer/ccitt.py	/^        def __init__(self, width, bytealign=False):$/;"	m	class:main/Parser
+__init__	pdfminer/ccitt.py	/^    def __init__(self):$/;"	m	class:BitParser
+__init__	pdfminer/ccitt.py	/^    def __init__(self, width, bytealign=False):$/;"	m	class:CCITTG4Parser
+__init__	pdfminer/ccitt.py	/^    def __init__(self, width, bytealign=False, reversed=False):$/;"	m	class:CCITTFaxDecoder
+__init__	pdfminer/cmapdb.py	/^    def __init__(self, **kwargs):$/;"	m	class:CMap
+__init__	pdfminer/cmapdb.py	/^    def __init__(self, **kwargs):$/;"	m	class:CMapBase
+__init__	pdfminer/cmapdb.py	/^    def __init__(self, **kwargs):$/;"	m	class:UnicodeMap
+__init__	pdfminer/cmapdb.py	/^    def __init__(self, cmap, fp):$/;"	m	class:CMapParser
+__init__	pdfminer/cmapdb.py	/^    def __init__(self, name, module):$/;"	m	class:PyCMap
+__init__	pdfminer/cmapdb.py	/^    def __init__(self, name, module, vertical):$/;"	m	class:PyUnicodeMap
+__init__	pdfminer/converter.py	/^    def __init__(self, rsrcmgr, outfp, codec='utf-8', pageno=1, laparams=None):$/;"	m	class:PDFConverter
+__init__	pdfminer/converter.py	/^    def __init__(self, rsrcmgr, outfp, codec='utf-8', pageno=1, laparams=None,$/;"	m	class:HTMLConverter
+__init__	pdfminer/converter.py	/^    def __init__(self, rsrcmgr, outfp, codec='utf-8', pageno=1, laparams=None,$/;"	m	class:TextConverter
+__init__	pdfminer/converter.py	/^    def __init__(self, rsrcmgr, outfp, codec='utf-8', pageno=1,$/;"	m	class:XMLConverter
+__init__	pdfminer/converter.py	/^    def __init__(self, rsrcmgr, pageno=1, laparams=None):$/;"	m	class:PDFLayoutAnalyzer
+__init__	pdfminer/converter.py	/^    def __init__(self, rsrcmgr, pageno=1, laparams=None):$/;"	m	class:PDFPageAggregator
+__init__	pdfminer/image.py	/^    def __init__(self, fp, bits, width, height):$/;"	m	class:BMPWriter
+__init__	pdfminer/image.py	/^    def __init__(self, outdir):$/;"	m	class:ImageWriter
+__init__	pdfminer/layout.py	/^    def __init__(self):$/;"	m	class:LTExpandableContainer
+__init__	pdfminer/layout.py	/^    def __init__(self):$/;"	m	class:LTTextBox
+__init__	pdfminer/layout.py	/^    def __init__(self):$/;"	m	class:LTTextContainer
+__init__	pdfminer/layout.py	/^    def __init__(self, bbox):$/;"	m	class:LTComponent
+__init__	pdfminer/layout.py	/^    def __init__(self, bbox):$/;"	m	class:LTContainer
+__init__	pdfminer/layout.py	/^    def __init__(self, bbox):$/;"	m	class:LTLayoutContainer
+__init__	pdfminer/layout.py	/^    def __init__(self, index=0):$/;"	m	class:IndexAssigner
+__init__	pdfminer/layout.py	/^    def __init__(self, linewidth, bbox):$/;"	m	class:LTRect
+__init__	pdfminer/layout.py	/^    def __init__(self, linewidth, p0, p1):$/;"	m	class:LTLine
+__init__	pdfminer/layout.py	/^    def __init__(self, linewidth, pts):$/;"	m	class:LTCurve
+__init__	pdfminer/layout.py	/^    def __init__(self, matrix, font, fontsize, scaling, rise,$/;"	m	class:LTChar
+__init__	pdfminer/layout.py	/^    def __init__(self, name, bbox, matrix):$/;"	m	class:LTFigure
+__init__	pdfminer/layout.py	/^    def __init__(self, name, stream, bbox):$/;"	m	class:LTImage
+__init__	pdfminer/layout.py	/^    def __init__(self, objs):$/;"	m	class:LTTextGroup
+__init__	pdfminer/layout.py	/^    def __init__(self, pageid, bbox, rotate=0):$/;"	m	class:LTPage
+__init__	pdfminer/layout.py	/^    def __init__(self, text):$/;"	m	class:LTAnno
+__init__	pdfminer/layout.py	/^    def __init__(self, word_margin):$/;"	m	class:LTTextLine
+__init__	pdfminer/layout.py	/^    def __init__(self, word_margin):$/;"	m	class:LTTextLineHorizontal
+__init__	pdfminer/layout.py	/^    def __init__(self, word_margin):$/;"	m	class:LTTextLineVertical
+__init__	pdfminer/layout.py	/^    def __init__(self,$/;"	m	class:LAParams
+__init__	pdfminer/lzw.py	/^    def __init__(self, fp):$/;"	m	class:LZWDecoder
+__init__	pdfminer/pdfcolor.py	/^    def __init__(self, name, ncomponents):$/;"	m	class:PDFColorSpace
+__init__	pdfminer/pdfdevice.py	/^    def __init__(self, rsrcmgr):$/;"	m	class:PDFDevice
+__init__	pdfminer/pdfdevice.py	/^    def __init__(self, rsrcmgr, outfp, codec='utf-8'):$/;"	m	class:TagExtractor
+__init__	pdfminer/pdfdocument.py	/^    def __init__(self):$/;"	m	class:PDFXRef
+__init__	pdfminer/pdfdocument.py	/^    def __init__(self):$/;"	m	class:PDFXRefStream
+__init__	pdfminer/pdfdocument.py	/^    def __init__(self, docid, param, password=''):$/;"	m	class:PDFStandardSecurityHandler
+__init__	pdfminer/pdfdocument.py	/^    def __init__(self, parser, password='', caching=True, fallback=True):$/;"	m	class:PDFDocument
+__init__	pdfminer/pdffont.py	/^        def __init__(self, fp):$/;"	m	class:CFFFont.INDEX
+__init__	pdfminer/pdffont.py	/^    def __init__(self, data):$/;"	m	class:Type1FontHeaderParser
+__init__	pdfminer/pdffont.py	/^    def __init__(self, descriptor, widths, default_width=None):$/;"	m	class:PDFFont
+__init__	pdfminer/pdffont.py	/^    def __init__(self, descriptor, widths, spec):$/;"	m	class:PDFSimpleFont
+__init__	pdfminer/pdffont.py	/^    def __init__(self, name, fp):$/;"	m	class:CFFFont
+__init__	pdfminer/pdffont.py	/^    def __init__(self, name, fp):$/;"	m	class:TrueTypeFont
+__init__	pdfminer/pdffont.py	/^    def __init__(self, rsrcmgr, spec):$/;"	m	class:PDFType1Font
+__init__	pdfminer/pdffont.py	/^    def __init__(self, rsrcmgr, spec):$/;"	m	class:PDFType3Font
+__init__	pdfminer/pdffont.py	/^    def __init__(self, rsrcmgr, spec, strict=settings.STRICT):$/;"	m	class:PDFCIDFont
+__init__	pdfminer/pdfinterp.py	/^    def __init__(self):$/;"	m	class:PDFGraphicState
+__init__	pdfminer/pdfinterp.py	/^    def __init__(self):$/;"	m	class:PDFTextState
+__init__	pdfminer/pdfinterp.py	/^    def __init__(self, caching=True):$/;"	m	class:PDFResourceManager
+__init__	pdfminer/pdfinterp.py	/^    def __init__(self, rsrcmgr, device):$/;"	m	class:PDFPageInterpreter
+__init__	pdfminer/pdfinterp.py	/^    def __init__(self, streams):$/;"	m	class:PDFContentParser
+__init__	pdfminer/pdfpage.py	/^    def __init__(self, doc, pageid, attrs):$/;"	m	class:PDFPage
+__init__	pdfminer/pdfparser.py	/^    def __init__(self, data):$/;"	m	class:PDFStreamParser
+__init__	pdfminer/pdfparser.py	/^    def __init__(self, fp):$/;"	m	class:PDFParser
+__init__	pdfminer/pdftypes.py	/^    def __init__(self, attrs, rawdata, decipher=None):$/;"	m	class:PDFStream
+__init__	pdfminer/pdftypes.py	/^    def __init__(self, doc, objid, _):$/;"	m	class:PDFObjRef
+__init__	pdfminer/psparser.py	/^    def __init__(self, fp):$/;"	m	class:PSBaseParser
+__init__	pdfminer/psparser.py	/^    def __init__(self, fp):$/;"	m	class:PSStackParser
+__init__	pdfminer/psparser.py	/^    def __init__(self, klass):$/;"	m	class:PSSymbolTable
+__init__	pdfminer/psparser.py	/^    def __init__(self, name):$/;"	m	class:PSKeyword
+__init__	pdfminer/psparser.py	/^    def __init__(self, name):$/;"	m	class:PSLiteral
+__init__	pdfminer/rijndael.py	/^    def __init__(self, key, keybits=256):$/;"	m	class:RijndaelDecryptor
+__init__	pdfminer/rijndael.py	/^    def __init__(self, key, keybits=256):$/;"	m	class:RijndaelEncryptor
+__init__	pdfminer/utils.py	/^    def __init__(self, bbox, gridsize=50):$/;"	m	class:Plane
+__iter__	pdfminer/layout.py	/^    def __iter__(self):$/;"	m	class:LTContainer	file:
+__iter__	pdfminer/pdffont.py	/^        def __iter__(self):$/;"	m	class:CFFFont.INDEX	file:
+__iter__	pdfminer/utils.py	/^    def __iter__(self):$/;"	m	class:Plane	file:
+__le__	pdfminer/layout.py	/^    def __le__(self, _):$/;"	m	class:LTComponent	file:
+__len__	pdfminer/layout.py	/^    def __len__(self):$/;"	m	class:LTContainer	file:
+__len__	pdfminer/pdffont.py	/^        def __len__(self):$/;"	m	class:CFFFont.INDEX	file:
+__len__	pdfminer/utils.py	/^    def __len__(self):$/;"	m	class:Plane	file:
+__lt__	pdfminer/layout.py	/^    def __lt__(self, _):$/;"	m	class:LTComponent	file:
+__repr__	pdfminer/cmapdb.py	/^    def __repr__(self):$/;"	m	class:CMap	file:
+__repr__	pdfminer/cmapdb.py	/^    def __repr__(self):$/;"	m	class:UnicodeMap	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LAParams	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LTChar	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LTComponent	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LTFigure	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LTImage	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LTPage	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LTText	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LTTextBox	file:
+__repr__	pdfminer/layout.py	/^    def __repr__(self):$/;"	m	class:LTTextLine	file:
+__repr__	pdfminer/pdfcolor.py	/^    def __repr__(self):$/;"	m	class:PDFColorSpace	file:
+__repr__	pdfminer/pdfdevice.py	/^    def __repr__(self):$/;"	m	class:PDFDevice	file:
+__repr__	pdfminer/pdfdocument.py	/^    def __repr__(self):$/;"	m	class:PDFXRef	file:
+__repr__	pdfminer/pdfdocument.py	/^    def __repr__(self):$/;"	m	class:PDFXRefFallback	file:
+__repr__	pdfminer/pdfdocument.py	/^    def __repr__(self):$/;"	m	class:PDFXRefStream	file:
+__repr__	pdfminer/pdffont.py	/^        def __repr__(self):$/;"	m	class:CFFFont.INDEX	file:
+__repr__	pdfminer/pdffont.py	/^    def __repr__(self):$/;"	m	class:PDFCIDFont	file:
+__repr__	pdfminer/pdffont.py	/^    def __repr__(self):$/;"	m	class:PDFFont	file:
+__repr__	pdfminer/pdffont.py	/^    def __repr__(self):$/;"	m	class:PDFTrueTypeFont	file:
+__repr__	pdfminer/pdffont.py	/^    def __repr__(self):$/;"	m	class:PDFType1Font	file:
+__repr__	pdfminer/pdffont.py	/^    def __repr__(self):$/;"	m	class:PDFType3Font	file:
+__repr__	pdfminer/pdfinterp.py	/^    def __repr__(self):$/;"	m	class:PDFGraphicState	file:
+__repr__	pdfminer/pdfinterp.py	/^    def __repr__(self):$/;"	m	class:PDFTextState	file:
+__repr__	pdfminer/pdfpage.py	/^    def __repr__(self):$/;"	m	class:PDFPage	file:
+__repr__	pdfminer/pdftypes.py	/^    def __repr__(self):$/;"	m	class:PDFObjRef	file:
+__repr__	pdfminer/pdftypes.py	/^    def __repr__(self):$/;"	m	class:PDFStream	file:
+__repr__	pdfminer/psparser.py	/^    def __repr__(self):$/;"	m	class:PSBaseParser	file:
+__repr__	pdfminer/psparser.py	/^    def __repr__(self):$/;"	m	class:PSKeyword	file:
+__repr__	pdfminer/psparser.py	/^    def __repr__(self):$/;"	m	class:PSLiteral	file:
+__repr__	pdfminer/utils.py	/^    def __repr__(self):$/;"	m	class:Plane	file:
+_add_token	pdfminer/psparser.py	/^    def _add_token(self, obj):$/;"	m	class:PSBaseParser
+_do_horizontal	pdfminer/ccitt.py	/^    def _do_horizontal(self, n1, n2):$/;"	m	class:CCITTG4Parser
+_do_pass	pdfminer/ccitt.py	/^    def _do_pass(self):$/;"	m	class:CCITTG4Parser
+_do_uncompressed	pdfminer/ccitt.py	/^    def _do_uncompressed(self, bits):$/;"	m	class:CCITTG4Parser
+_do_vertical	pdfminer/ccitt.py	/^    def _do_vertical(self, dx):$/;"	m	class:CCITTG4Parser
+_flush_line	pdfminer/ccitt.py	/^    def _flush_line(self):$/;"	m	class:CCITTG4Parser
+_get_bits	pdfminer/ccitt.py	/^    def _get_bits(self):$/;"	m	class:CCITTG4Parser
+_get_objects	pdfminer/pdfdocument.py	/^    def _get_objects(self, stream):$/;"	m	class:PDFDocument
+_get_refline	pdfminer/ccitt.py	/^    def _get_refline(self, i):$/;"	m	class:CCITTG4Parser
+_getobj_objstm	pdfminer/pdfdocument.py	/^    def _getobj_objstm(self, stream, index, objid):$/;"	m	class:PDFDocument
+_getobj_parse	pdfminer/pdfdocument.py	/^    def _getobj_parse(self, pos, objid):$/;"	m	class:PDFDocument
+_getrange	pdfminer/utils.py	/^    def _getrange(self, bbox):$/;"	m	class:Plane
+_initialize_password	pdfminer/pdfdocument.py	/^    def _initialize_password(self, password=''):$/;"	m	class:PDFDocument
+_load_data	pdfminer/cmapdb.py	/^    def _load_data(klass, name):$/;"	m	class:CMapDB
+_parse_bit	pdfminer/ccitt.py	/^    def _parse_bit(self, x):$/;"	m	class:BitParser
+_parse_comment	pdfminer/psparser.py	/^    def _parse_comment(self, s, i):$/;"	m	class:PSBaseParser
+_parse_float	pdfminer/psparser.py	/^    def _parse_float(self, s, i):$/;"	m	class:PSBaseParser
+_parse_hexstring	pdfminer/psparser.py	/^    def _parse_hexstring(self, s, i):$/;"	m	class:PSBaseParser
+_parse_horiz1	pdfminer/ccitt.py	/^    def _parse_horiz1(self, n):$/;"	m	class:CCITTG4Parser
+_parse_horiz2	pdfminer/ccitt.py	/^    def _parse_horiz2(self, n):$/;"	m	class:CCITTG4Parser
+_parse_keyword	pdfminer/psparser.py	/^    def _parse_keyword(self, s, i):$/;"	m	class:PSBaseParser
+_parse_literal	pdfminer/psparser.py	/^    def _parse_literal(self, s, i):$/;"	m	class:PSBaseParser
+_parse_literal_hex	pdfminer/psparser.py	/^    def _parse_literal_hex(self, s, i):$/;"	m	class:PSBaseParser
+_parse_main	pdfminer/psparser.py	/^    def _parse_main(self, s, i):$/;"	m	class:PSBaseParser
+_parse_mode	pdfminer/ccitt.py	/^    def _parse_mode(self, mode):$/;"	m	class:CCITTG4Parser
+_parse_number	pdfminer/psparser.py	/^    def _parse_number(self, s, i):$/;"	m	class:PSBaseParser
+_parse_string	pdfminer/psparser.py	/^    def _parse_string(self, s, i):$/;"	m	class:PSBaseParser
+_parse_string_1	pdfminer/psparser.py	/^    def _parse_string_1(self, s, i):$/;"	m	class:PSBaseParser
+_parse_uncompressed	pdfminer/ccitt.py	/^    def _parse_uncompressed(self, bits):$/;"	m	class:CCITTG4Parser
+_parse_wclose	pdfminer/psparser.py	/^    def _parse_wclose(self, s, i):$/;"	m	class:PSBaseParser
+_parse_wopen	pdfminer/psparser.py	/^    def _parse_wopen(self, s, i):$/;"	m	class:PSBaseParser
+_reset_line	pdfminer/ccitt.py	/^    def _reset_line(self):$/;"	m	class:CCITTG4Parser
+add	pdfminer/ccitt.py	/^    def add(klass, root, v, bits):$/;"	m	class:BitParser
+add	pdfminer/layout.py	/^    def add(self, obj):$/;"	m	class:LTContainer
+add	pdfminer/layout.py	/^    def add(self, obj):$/;"	m	class:LTExpandableContainer
+add	pdfminer/layout.py	/^    def add(self, obj):$/;"	m	class:LTTextLineHorizontal
+add	pdfminer/layout.py	/^    def add(self, obj):$/;"	m	class:LTTextLineVertical
+add	pdfminer/utils.py	/^    def add(self, obj):$/;"	m	class:Plane
+add_cid2unichr	pdfminer/cmapdb.py	/^    def add_cid2unichr(self, cid, code):$/;"	m	class:CMapBase
+add_cid2unichr	pdfminer/cmapdb.py	/^    def add_cid2unichr(self, cid, code):$/;"	m	class:FileUnicodeMap
+add_code2cid	pdfminer/cmapdb.py	/^    def add_code2cid(self, code, cid):$/;"	m	class:CMapBase
+add_code2cid	pdfminer/cmapdb.py	/^    def add_code2cid(self, code, cid):$/;"	m	class:FileCMap
+add_results	pdfminer/psparser.py	/^    def add_results(self, *objs):$/;"	m	class:PSStackParser
+align32	pdfminer/image.py	/^def align32(x):$/;"	f
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTContainer
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTFigure
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTItem
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTLayoutContainer
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTTextBoxHorizontal
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTTextBoxVertical
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTTextGroupLRTB
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTTextGroupTBRL
+analyze	pdfminer/layout.py	/^    def analyze(self, laparams):$/;"	m	class:LTTextLine
+apply_matrix_norm	pdfminer/utils.py	/^def apply_matrix_norm(m, v):$/;"	f
+apply_matrix_pt	pdfminer/utils.py	/^def apply_matrix_pt(m, v):$/;"	f
+apply_png_predictor	pdfminer/utils.py	/^def apply_png_predictor(pred, colors, columns, bitspercomponent, data):$/;"	f
+ascii85decode	pdfminer/ascii85.py	/^def ascii85decode(data):$/;"	f
+asciihexdecode	pdfminer/ascii85.py	/^def asciihexdecode(data):$/;"	f
+ault	pdfminer/pdfdocument.py	/^                line=line.decode('latin-1') #default pdf encoding$/;"	f	function:PDFXRefFallback.load
+ault	pdfminer/pdftypes.py	/^            return default$/;"	f	function:PDFObjRef.resolve
+ault	pdfminer/pdftypes.py	/^            x[k] = resolve_all(v, default=default)$/;"	f	function:resolve_all/ault
+ault	pdfminer/pdftypes.py	/^        return default$/;"	f	function:PDFStream.get_any
+ault	pdfminer/pdftypes.py	/^        return self.attrs.get(name, default)$/;"	f	function:PDFStream.get
+ault	pdfminer/pdftypes.py	/^        x = [resolve_all(v, default=default) for v in x]$/;"	f	function:resolve_all
+ault	pdfminer/pdftypes.py	/^        x = x.resolve(default=default)$/;"	f	function:resolve1
+ault	pdfminer/pdftypes.py	/^        x = x.resolve(default=default)$/;"	f	function:resolve_all
+ault	pdfminer/utils.py	/^        return default$/;"	f	function:nunpack
+ault_disp	pdfminer/pdffont.py	/^            self.default_disp = (None, vy)$/;"	f	function:PDFCIDFont.__init__
+ault_disp	pdfminer/pdffont.py	/^            self.default_disp = 0$/;"	f	function:PDFCIDFont.__init__
+ault_disp	pdfminer/pdffont.py	/^        return self.disps.get(cid, self.default_disp)$/;"	f	function:PDFCIDFont.char_disp
+ault_width	pdfminer/pdffont.py	/^                return self.default_width * self.hscale$/;"	f	function:PDFFont.char_width
+ault_width	pdfminer/pdffont.py	/^            default_width = spec.get('DW', 1000)$/;"	f	function:PDFCIDFont.__init__
+ault_width	pdfminer/pdffont.py	/^            default_width = w$/;"	f	function:PDFCIDFont.__init__
+ault_width	pdfminer/pdffont.py	/^            w = -self.default_width$/;"	f	function:PDFFont.get_width
+ault_width	pdfminer/pdffont.py	/^        PDFFont.__init__(self, descriptor, widths, default_width=default_width)$/;"	f	function:PDFCIDFont.__init__
+ault_width	pdfminer/pdffont.py	/^        self.default_width = default_width or num_value(descriptor.get('MissingWidth', 0))$/;"	f	function:PDFFont.__init__
+authenticate	pdfminer/pdfdocument.py	/^    def authenticate(self, password):$/;"	m	class:PDFStandardSecurityHandler
+authenticate	pdfminer/pdfdocument.py	/^    def authenticate(self, password):$/;"	m	class:PDFStandardSecurityHandlerV5
+authenticate_owner_password	pdfminer/pdfdocument.py	/^    def authenticate_owner_password(self, password):$/;"	m	class:PDFStandardSecurityHandler
+authenticate_user_password	pdfminer/pdfdocument.py	/^    def authenticate_user_password(self, password):$/;"	m	class:PDFStandardSecurityHandler
+bbox2str	pdfminer/utils.py	/^def bbox2str(bbox):$/;"	f
+begin_div	pdfminer/converter.py	/^    def begin_div(self, color, borderwidth, x, y, w, h, writing_mode=False):$/;"	m	class:HTMLConverter
+begin_figure	pdfminer/converter.py	/^    def begin_figure(self, name, bbox, matrix):$/;"	m	class:PDFLayoutAnalyzer
+begin_figure	pdfminer/pdfdevice.py	/^    def begin_figure(self, name, bbox, matrix):$/;"	m	class:PDFDevice
+begin_page	pdfminer/converter.py	/^    def begin_page(self, page, ctm):$/;"	m	class:PDFLayoutAnalyzer
+begin_page	pdfminer/pdfdevice.py	/^    def begin_page(self, page, ctm):$/;"	m	class:PDFDevice
+begin_page	pdfminer/pdfdevice.py	/^    def begin_page(self, page, ctm):$/;"	m	class:TagExtractor
+begin_tag	pdfminer/pdfdevice.py	/^    def begin_tag(self, tag, props=None):$/;"	m	class:PDFDevice
+begin_tag	pdfminer/pdfdevice.py	/^    def begin_tag(self, tag, props=None):$/;"	m	class:TagExtractor
+bytesindex	pdfminer/psparser.py	/^def bytesindex(s,i,j=None):$/;"	f
+ccittfaxdecode	pdfminer/ccitt.py	/^def ccittfaxdecode(data, params):$/;"	f
+char_disp	pdfminer/pdffont.py	/^    def char_disp(self, cid):$/;"	m	class:PDFCIDFont
+char_disp	pdfminer/pdffont.py	/^    def char_disp(self, cid):$/;"	m	class:PDFFont
+char_width	pdfminer/pdffont.py	/^    def char_width(self, cid):$/;"	m	class:PDFFont
+choplist	pdfminer/utils.py	/^def choplist(n, seq):$/;"	f
+close	pdfminer/ccitt.py	/^        def close(self):$/;"	m	class:main/Parser
+close	pdfminer/ccitt.py	/^    def close(self):$/;"	m	class:CCITTFaxDecoder
+close	pdfminer/converter.py	/^    def close(self):$/;"	m	class:HTMLConverter
+close	pdfminer/converter.py	/^    def close(self):$/;"	m	class:XMLConverter
+close	pdfminer/pdfdevice.py	/^    def close(self):$/;"	m	class:PDFDevice
+close	pdfminer/psparser.py	/^    def close(self):$/;"	m	class:PSBaseParser
+compatible_encode_method	pdfminer/utils.py	/^def compatible_encode_method(bytesorstring, encoding='utf-8', erraction='ignore'):$/;"	f
+compute_encryption_key	pdfminer/pdfdocument.py	/^    def compute_encryption_key(self, password):$/;"	m	class:PDFStandardSecurityHandler
+compute_u	pdfminer/pdfdocument.py	/^    def compute_u(self, key):$/;"	m	class:PDFStandardSecurityHandler
+copy	pdfminer/cmapdb.py	/^        def copy(dst, src):$/;"	f	function:CMap.use_cmap
+copy	pdfminer/pdfinterp.py	/^    def copy(self):$/;"	m	class:PDFGraphicState
+copy	pdfminer/pdfinterp.py	/^    def copy(self):$/;"	m	class:PDFTextState
+create_pages	pdfminer/pdfpage.py	/^    def create_pages(klass, document):$/;"	m	class:PDFPage
+create_unicode_map	pdfminer/pdffont.py	/^    def create_unicode_map(self):$/;"	m	class:TrueTypeFont
+csort	pdfminer/utils.py	/^def csort(objs, key):$/;"	f
+decipher_all	pdfminer/pdftypes.py	/^def decipher_all(decipher, objid, genno, x):$/;"	f
+decode	pdfminer/ascii85.py	/^    def decode(x):$/;"	f	function:asciihexdecode
+decode	pdfminer/cmapdb.py	/^    def decode(self, code):$/;"	m	class:CMap
+decode	pdfminer/cmapdb.py	/^    def decode(self, code):$/;"	m	class:IdentityCMap
+decode	pdfminer/pdffont.py	/^    def decode(self, bytes):$/;"	m	class:PDFCIDFont
+decode	pdfminer/pdffont.py	/^    def decode(self, bytes):$/;"	m	class:PDFFont
+decode	pdfminer/pdftypes.py	/^    def decode(self):$/;"	m	class:PDFStream
+decode_text	pdfminer/utils.py	/^def decode_text(s):$/;"	f
+decrypt	pdfminer/pdfdocument.py	/^    def decrypt(self, objid, genno, data, attrs=None):$/;"	m	class:PDFStandardSecurityHandler
+decrypt	pdfminer/pdfdocument.py	/^    def decrypt(self, objid, genno, data, attrs=None, name=None):$/;"	m	class:PDFStandardSecurityHandlerV4
+decrypt	pdfminer/rijndael.py	/^    def decrypt(self, ciphertext):$/;"	m	class:RijndaelDecryptor
+decrypt_aes128	pdfminer/pdfdocument.py	/^    def decrypt_aes128(self, objid, genno, data):$/;"	m	class:PDFStandardSecurityHandlerV4
+decrypt_aes256	pdfminer/pdfdocument.py	/^    def decrypt_aes256(self, objid, genno, data):$/;"	m	class:PDFStandardSecurityHandlerV5
+decrypt_identity	pdfminer/pdfdocument.py	/^    def decrypt_identity(self, objid, genno, data):$/;"	m	class:PDFStandardSecurityHandlerV4
+decrypt_rc4	pdfminer/pdfdocument.py	/^    def decrypt_rc4(self, objid, genno, data):$/;"	m	class:PDFStandardSecurityHandler
+dict_value	pdfminer/pdftypes.py	/^def dict_value(x):$/;"	f
+dist	pdfminer/layout.py	/^        def dist(obj1, obj2):$/;"	f	function:LTLayoutContainer.group_textboxes
+do_B	pdfminer/pdfinterp.py	/^    def do_B(self):$/;"	m	class:PDFPageInterpreter
+do_BDC	pdfminer/pdfinterp.py	/^    def do_BDC(self, tag, props):$/;"	m	class:PDFPageInterpreter
+do_BI	pdfminer/pdfinterp.py	/^    def do_BI(self):  # never called$/;"	m	class:PDFPageInterpreter
+do_BMC	pdfminer/pdfinterp.py	/^    def do_BMC(self, tag):$/;"	m	class:PDFPageInterpreter
+do_BT	pdfminer/pdfinterp.py	/^    def do_BT(self):$/;"	m	class:PDFPageInterpreter
+do_BX	pdfminer/pdfinterp.py	/^    def do_BX(self):$/;"	m	class:PDFPageInterpreter
+do_B_a	pdfminer/pdfinterp.py	/^    def do_B_a(self):$/;"	m	class:PDFPageInterpreter
+do_CS	pdfminer/pdfinterp.py	/^    def do_CS(self, name):$/;"	m	class:PDFPageInterpreter
+do_DP	pdfminer/pdfinterp.py	/^    def do_DP(self, tag, props):$/;"	m	class:PDFPageInterpreter
+do_Do	pdfminer/pdfinterp.py	/^    def do_Do(self, xobjid):$/;"	m	class:PDFPageInterpreter
+do_EI	pdfminer/pdfinterp.py	/^    def do_EI(self, obj):$/;"	m	class:PDFPageInterpreter
+do_EMC	pdfminer/pdfinterp.py	/^    def do_EMC(self):$/;"	m	class:PDFPageInterpreter
+do_ET	pdfminer/pdfinterp.py	/^    def do_ET(self):$/;"	m	class:PDFPageInterpreter
+do_EX	pdfminer/pdfinterp.py	/^    def do_EX(self):$/;"	m	class:PDFPageInterpreter
+do_G	pdfminer/pdfinterp.py	/^    def do_G(self, gray):$/;"	m	class:PDFPageInterpreter
+do_ID	pdfminer/pdfinterp.py	/^    def do_ID(self):  # never called$/;"	m	class:PDFPageInterpreter
+do_J	pdfminer/pdfinterp.py	/^    def do_J(self, linecap):$/;"	m	class:PDFPageInterpreter
+do_K	pdfminer/pdfinterp.py	/^    def do_K(self, c, m, y, k):$/;"	m	class:PDFPageInterpreter
+do_M	pdfminer/pdfinterp.py	/^    def do_M(self, miterlimit):$/;"	m	class:PDFPageInterpreter
+do_MP	pdfminer/pdfinterp.py	/^    def do_MP(self, tag):$/;"	m	class:PDFPageInterpreter
+do_Q	pdfminer/pdfinterp.py	/^    def do_Q(self):$/;"	m	class:PDFPageInterpreter
+do_RG	pdfminer/pdfinterp.py	/^    def do_RG(self, r, g, b):$/;"	m	class:PDFPageInterpreter
+do_S	pdfminer/pdfinterp.py	/^    def do_S(self):$/;"	m	class:PDFPageInterpreter
+do_SC	pdfminer/pdfinterp.py	/^    def do_SC(self):$/;"	m	class:PDFPageInterpreter
+do_SCN	pdfminer/pdfinterp.py	/^    def do_SCN(self):$/;"	m	class:PDFPageInterpreter
+do_TD	pdfminer/pdfinterp.py	/^    def do_TD(self, tx, ty):$/;"	m	class:PDFPageInterpreter
+do_TJ	pdfminer/pdfinterp.py	/^    def do_TJ(self, seq):$/;"	m	class:PDFPageInterpreter
+do_TL	pdfminer/pdfinterp.py	/^    def do_TL(self, leading):$/;"	m	class:PDFPageInterpreter
+do_T_a	pdfminer/pdfinterp.py	/^    def do_T_a(self):$/;"	m	class:PDFPageInterpreter
+do_Tc	pdfminer/pdfinterp.py	/^    def do_Tc(self, space):$/;"	m	class:PDFPageInterpreter
+do_Td	pdfminer/pdfinterp.py	/^    def do_Td(self, tx, ty):$/;"	m	class:PDFPageInterpreter
+do_Tf	pdfminer/pdfinterp.py	/^    def do_Tf(self, fontid, fontsize):$/;"	m	class:PDFPageInterpreter
+do_Tj	pdfminer/pdfinterp.py	/^    def do_Tj(self, s):$/;"	m	class:PDFPageInterpreter
+do_Tm	pdfminer/pdfinterp.py	/^    def do_Tm(self, a, b, c, d, e, f):$/;"	m	class:PDFPageInterpreter
+do_Tr	pdfminer/pdfinterp.py	/^    def do_Tr(self, render):$/;"	m	class:PDFPageInterpreter
+do_Ts	pdfminer/pdfinterp.py	/^    def do_Ts(self, rise):$/;"	m	class:PDFPageInterpreter
+do_Tw	pdfminer/pdfinterp.py	/^    def do_Tw(self, space):$/;"	m	class:PDFPageInterpreter
+do_Tz	pdfminer/pdfinterp.py	/^    def do_Tz(self, scale):$/;"	m	class:PDFPageInterpreter
+do_W	pdfminer/pdfinterp.py	/^    def do_W(self):$/;"	m	class:PDFPageInterpreter
+do_W_a	pdfminer/pdfinterp.py	/^    def do_W_a(self):$/;"	m	class:PDFPageInterpreter
+do__q	pdfminer/pdfinterp.py	/^    def do__q(self, s):$/;"	m	class:PDFPageInterpreter
+do__w	pdfminer/pdfinterp.py	/^    def do__w(self, aw, ac, s):$/;"	m	class:PDFPageInterpreter
+do_b	pdfminer/pdfinterp.py	/^    def do_b(self):$/;"	m	class:PDFPageInterpreter
+do_b_a	pdfminer/pdfinterp.py	/^    def do_b_a(self):$/;"	m	class:PDFPageInterpreter
+do_c	pdfminer/pdfinterp.py	/^    def do_c(self, x1, y1, x2, y2, x3, y3):$/;"	m	class:PDFPageInterpreter
+do_cm	pdfminer/pdfinterp.py	/^    def do_cm(self, a1, b1, c1, d1, e1, f1):$/;"	m	class:PDFPageInterpreter
+do_cs	pdfminer/pdfinterp.py	/^    def do_cs(self, name):$/;"	m	class:PDFPageInterpreter
+do_d	pdfminer/pdfinterp.py	/^    def do_d(self, dash, phase):$/;"	m	class:PDFPageInterpreter
+do_f	pdfminer/pdfinterp.py	/^    def do_f(self):$/;"	m	class:PDFPageInterpreter
+do_f_a	pdfminer/pdfinterp.py	/^    def do_f_a(self):$/;"	m	class:PDFPageInterpreter
+do_g	pdfminer/pdfinterp.py	/^    def do_g(self, gray):$/;"	m	class:PDFPageInterpreter
+do_gs	pdfminer/pdfinterp.py	/^    def do_gs(self, name):$/;"	m	class:PDFPageInterpreter
+do_h	pdfminer/pdfinterp.py	/^    def do_h(self):$/;"	m	class:PDFPageInterpreter
+do_i	pdfminer/pdfinterp.py	/^    def do_i(self, flatness):$/;"	m	class:PDFPageInterpreter
+do_j	pdfminer/pdfinterp.py	/^    def do_j(self, linejoin):$/;"	m	class:PDFPageInterpreter
+do_k	pdfminer/pdfinterp.py	/^    def do_k(self, c, m, y, k):$/;"	m	class:PDFPageInterpreter
+do_keyword	pdfminer/cmapdb.py	/^    def do_keyword(self, pos, token):$/;"	m	class:CMapParser
+do_keyword	pdfminer/pdffont.py	/^    def do_keyword(self, pos, token):$/;"	m	class:Type1FontHeaderParser
+do_keyword	pdfminer/pdfinterp.py	/^    def do_keyword(self, pos, token):$/;"	m	class:PDFContentParser
+do_keyword	pdfminer/pdfparser.py	/^    def do_keyword(self, pos, token):$/;"	m	class:PDFParser
+do_keyword	pdfminer/pdfparser.py	/^    def do_keyword(self, pos, token):$/;"	m	class:PDFStreamParser
+do_keyword	pdfminer/psparser.py	/^    def do_keyword(self, pos, token):$/;"	m	class:PSStackParser
+do_l	pdfminer/pdfinterp.py	/^    def do_l(self, x, y):$/;"	m	class:PDFPageInterpreter
+do_m	pdfminer/pdfinterp.py	/^    def do_m(self, x, y):$/;"	m	class:PDFPageInterpreter
+do_n	pdfminer/pdfinterp.py	/^    def do_n(self):$/;"	m	class:PDFPageInterpreter
+do_q	pdfminer/pdfinterp.py	/^    def do_q(self):$/;"	m	class:PDFPageInterpreter
+do_re	pdfminer/pdfinterp.py	/^    def do_re(self, x, y, w, h):$/;"	m	class:PDFPageInterpreter
+do_rg	pdfminer/pdfinterp.py	/^    def do_rg(self, r, g, b):$/;"	m	class:PDFPageInterpreter
+do_ri	pdfminer/pdfinterp.py	/^    def do_ri(self, intent):$/;"	m	class:PDFPageInterpreter
+do_s	pdfminer/pdfinterp.py	/^    def do_s(self):$/;"	m	class:PDFPageInterpreter
+do_sc	pdfminer/pdfinterp.py	/^    def do_sc(self):$/;"	m	class:PDFPageInterpreter
+do_scn	pdfminer/pdfinterp.py	/^    def do_scn(self):$/;"	m	class:PDFPageInterpreter
+do_sh	pdfminer/pdfinterp.py	/^    def do_sh(self, name):$/;"	m	class:PDFPageInterpreter
+do_tag	pdfminer/pdfdevice.py	/^    def do_tag(self, tag, props=None):$/;"	m	class:PDFDevice
+do_tag	pdfminer/pdfdevice.py	/^    def do_tag(self, tag, props=None):$/;"	m	class:TagExtractor
+do_v	pdfminer/pdfinterp.py	/^    def do_v(self, x2, y2, x3, y3):$/;"	m	class:PDFPageInterpreter
+do_w	pdfminer/pdfinterp.py	/^    def do_w(self, linewidth):$/;"	m	class:PDFPageInterpreter
+do_y	pdfminer/pdfinterp.py	/^    def do_y(self, x1, y1, x3, y3):$/;"	m	class:PDFPageInterpreter
+drange	pdfminer/utils.py	/^def drange(v0, v1, d):$/;"	f
+dump	pdfminer/cmapdb.py	/^    def dump(self, out=sys.stdout):$/;"	m	class:UnicodeMap
+dump	pdfminer/cmapdb.py	/^    def dump(self, out=sys.stdout, code2cid=None, code=None):$/;"	m	class:CMap
+dup	pdfminer/pdfinterp.py	/^    def dup(self):$/;"	m	class:PDFPageInterpreter
+enc	pdfminer/utils.py	/^def enc(x, codec='ascii'):$/;"	f
+encrypt	pdfminer/rijndael.py	/^    def encrypt(self, plaintext):$/;"	m	class:RijndaelEncryptor
+end_div	pdfminer/converter.py	/^    def end_div(self, color):$/;"	m	class:HTMLConverter
+end_figure	pdfminer/converter.py	/^    def end_figure(self, _):$/;"	m	class:PDFLayoutAnalyzer
+end_figure	pdfminer/pdfdevice.py	/^    def end_figure(self, name):$/;"	m	class:PDFDevice
+end_page	pdfminer/converter.py	/^    def end_page(self, page):$/;"	m	class:PDFLayoutAnalyzer
+end_page	pdfminer/pdfdevice.py	/^    def end_page(self, page):$/;"	m	class:PDFDevice
+end_page	pdfminer/pdfdevice.py	/^    def end_page(self, page):$/;"	m	class:TagExtractor
+end_tag	pdfminer/pdfdevice.py	/^    def end_tag(self):$/;"	m	class:PDFDevice
+end_tag	pdfminer/pdfdevice.py	/^    def end_tag(self):$/;"	m	class:TagExtractor
+end_type	pdfminer/psparser.py	/^    def end_type(self, type):$/;"	m	class:PSStackParser
+execute	pdfminer/pdfinterp.py	/^    def execute(self, streams):$/;"	m	class:PDFPageInterpreter
+export_image	pdfminer/image.py	/^    def export_image(self, image):$/;"	m	class:ImageWriter
+extend	pdfminer/layout.py	/^    def extend(self, objs):$/;"	m	class:LTContainer
+extend	pdfminer/utils.py	/^    def extend(self, objs):$/;"	m	class:Plane
+extract_text_to_fp	pdfminer/high_level.py	/^def extract_text_to_fp(inf, outfp,$/;"	f
+feed	pdfminer/lzw.py	/^    def feed(self, code):$/;"	m	class:LZWDecoder
+feedbytes	pdfminer/ccitt.py	/^    def feedbytes(self, data):$/;"	m	class:BitParser
+feedbytes	pdfminer/ccitt.py	/^    def feedbytes(self, data):$/;"	m	class:CCITTG4Parser
+fillbuf	pdfminer/pdfinterp.py	/^    def fillbuf(self):$/;"	m	class:PDFContentParser
+fillbuf	pdfminer/psparser.py	/^    def fillbuf(self):$/;"	m	class:PSBaseParser
+fillfp	pdfminer/pdfinterp.py	/^    def fillfp(self):$/;"	m	class:PDFContentParser
+find	pdfminer/utils.py	/^    def find(self, bbox):$/;"	m	class:Plane
+find_neighbors	pdfminer/layout.py	/^    def find_neighbors(self, plane, ratio):$/;"	m	class:LTTextLine
+find_neighbors	pdfminer/layout.py	/^    def find_neighbors(self, plane, ratio):$/;"	m	class:LTTextLineHorizontal
+find_neighbors	pdfminer/layout.py	/^    def find_neighbors(self, plane, ratio):$/;"	m	class:LTTextLineVertical
+find_xref	pdfminer/pdfdocument.py	/^    def find_xref(self, parser):$/;"	m	class:PDFDocument
+float_value	pdfminer/pdftypes.py	/^def float_value(x):$/;"	f
+flush	pdfminer/pdfinterp.py	/^    def flush(self):$/;"	m	class:PDFContentParser
+flush	pdfminer/pdfparser.py	/^    def flush(self):$/;"	m	class:PDFStreamParser
+flush	pdfminer/psparser.py	/^    def flush(self):$/;"	m	class:PSBaseParser
+fsplit	pdfminer/utils.py	/^def fsplit(pred, objs):$/;"	f
+get	pdfminer/pdftypes.py	/^    def get(self, name, default=None):$/;"	m	class:PDFStream
+get_any	pdfminer/pdftypes.py	/^    def get_any(self, names, default=None):$/;"	m	class:PDFStream
+get_ascent	pdfminer/pdffont.py	/^    def get_ascent(self):$/;"	m	class:PDFFont
+get_bound	pdfminer/utils.py	/^def get_bound(pts):$/;"	f
+get_cfm	pdfminer/pdfdocument.py	/^    def get_cfm(self, name):$/;"	m	class:PDFStandardSecurityHandlerV4
+get_cfm	pdfminer/pdfdocument.py	/^    def get_cfm(self, name):$/;"	m	class:PDFStandardSecurityHandlerV5
+get_cmap	pdfminer/cmapdb.py	/^    def get_cmap(klass, name):$/;"	m	class:CMapDB
+get_cmap	pdfminer/pdfinterp.py	/^    def get_cmap(self, cmapname, strict=False):$/;"	m	class:PDFResourceManager
+get_colorspace	pdfminer/pdfinterp.py	/^        def get_colorspace(spec):$/;"	f	function:PDFPageInterpreter.init_resources
+get_current_state	pdfminer/pdfinterp.py	/^    def get_current_state(self):$/;"	m	class:PDFPageInterpreter
+get_data	pdfminer/pdftypes.py	/^    def get_data(self):$/;"	m	class:PDFStream
+get_descent	pdfminer/pdffont.py	/^    def get_descent(self):$/;"	m	class:PDFFont
+get_dest	pdfminer/pdfdocument.py	/^    def get_dest(self, name):$/;"	m	class:PDFDocument
+get_encoding	pdfminer/encodingdb.py	/^    def get_encoding(klass, name, diff=None):$/;"	m	class:EncodingDB
+get_encoding	pdfminer/pdffont.py	/^    def get_encoding(self):$/;"	m	class:Type1FontHeaderParser
+get_filters	pdfminer/pdftypes.py	/^    def get_filters(self):$/;"	m	class:PDFStream
+get_font	pdfminer/pdfinterp.py	/^    def get_font(self, objid, spec):$/;"	m	class:PDFResourceManager
+get_height	pdfminer/pdffont.py	/^    def get_height(self):$/;"	m	class:PDFFont
+get_inline_data	pdfminer/pdfinterp.py	/^    def get_inline_data(self, pos, target=b'EI'):$/;"	m	class:PDFContentParser
+get_metrics	pdfminer/pdffont.py	/^    def get_metrics(klass, fontname):$/;"	m	class:FontMetricsDB
+get_objids	pdfminer/pdfdocument.py	/^    def get_objids(self):$/;"	m	class:PDFBaseXRef
+get_objids	pdfminer/pdfdocument.py	/^    def get_objids(self):$/;"	m	class:PDFXRef
+get_objids	pdfminer/pdfdocument.py	/^    def get_objids(self):$/;"	m	class:PDFXRefStream
+get_outlines	pdfminer/pdfdocument.py	/^    def get_outlines(self):$/;"	m	class:PDFDocument
+get_pages	pdfminer/pdfpage.py	/^    def get_pages(klass, fp,$/;"	m	class:PDFPage
+get_pos	pdfminer/pdfdocument.py	/^    def get_pos(self, objid):$/;"	m	class:PDFBaseXRef
+get_pos	pdfminer/pdfdocument.py	/^    def get_pos(self, objid):$/;"	m	class:PDFXRef
+get_pos	pdfminer/pdfdocument.py	/^    def get_pos(self, objid):$/;"	m	class:PDFXRefStream
+get_procset	pdfminer/pdfinterp.py	/^    def get_procset(self, procs):$/;"	m	class:PDFResourceManager
+get_pts	pdfminer/layout.py	/^    def get_pts(self):$/;"	m	class:LTCurve
+get_rawdata	pdfminer/pdftypes.py	/^    def get_rawdata(self):$/;"	m	class:PDFStream
+get_result	pdfminer/converter.py	/^    def get_result(self):$/;"	m	class:PDFPageAggregator
+get_text	pdfminer/layout.py	/^    def get_text(self):$/;"	m	class:LTAnno
+get_text	pdfminer/layout.py	/^    def get_text(self):$/;"	m	class:LTChar
+get_text	pdfminer/layout.py	/^    def get_text(self):$/;"	m	class:LTText
+get_text	pdfminer/layout.py	/^    def get_text(self):$/;"	m	class:LTTextContainer
+get_trailer	pdfminer/pdfdocument.py	/^    def get_trailer(self):$/;"	m	class:PDFBaseXRef
+get_trailer	pdfminer/pdfdocument.py	/^    def get_trailer(self):$/;"	m	class:PDFXRef
+get_trailer	pdfminer/pdfdocument.py	/^    def get_trailer(self):$/;"	m	class:PDFXRefStream
+get_unichr	pdfminer/cmapdb.py	/^    def get_unichr(self, cid):$/;"	m	class:UnicodeMap
+get_unicode_map	pdfminer/cmapdb.py	/^    def get_unicode_map(klass, name, vertical=False):$/;"	m	class:CMapDB
+get_width	pdfminer/pdffont.py	/^    def get_width(self):$/;"	m	class:PDFFont
+get_widths	pdfminer/pdffont.py	/^def get_widths(seq):$/;"	f
+get_widths2	pdfminer/pdffont.py	/^def get_widths2(seq):$/;"	f
+get_writing_mode	pdfminer/layout.py	/^    def get_writing_mode(self):$/;"	m	class:LTTextBoxHorizontal
+get_writing_mode	pdfminer/layout.py	/^    def get_writing_mode(self):$/;"	m	class:LTTextBoxVertical
+getdict	pdfminer/pdffont.py	/^def getdict(data):$/;"	f
+getobj	pdfminer/pdfdocument.py	/^    def getobj(self, objid):$/;"	m	class:PDFDocument
+getstr	pdfminer/pdffont.py	/^    def getstr(self, sid):$/;"	m	class:CFFFont
+group_objects	pdfminer/layout.py	/^    def group_objects(self, laparams, objs):$/;"	m	class:LTLayoutContainer
+group_textboxes	pdfminer/layout.py	/^    def group_textboxes(self, laparams, boxes):$/;"	m	class:LTLayoutContainer
+group_textlines	pdfminer/layout.py	/^    def group_textlines(self, laparams, lines):$/;"	m	class:LTLayoutContainer
+handle_undefined_char	pdfminer/converter.py	/^    def handle_undefined_char(self, font, cid):$/;"	m	class:PDFLayoutAnalyzer
+hdistance	pdfminer/layout.py	/^    def hdistance(self, obj):$/;"	m	class:LTComponent
+hoverlap	pdfminer/layout.py	/^    def hoverlap(self, obj):$/;"	m	class:LTComponent
+init	pdfminer/pdfdocument.py	/^    def init(self):$/;"	m	class:PDFStandardSecurityHandler
+init_key	pdfminer/pdfdocument.py	/^    def init_key(self):$/;"	m	class:PDFStandardSecurityHandler
+init_params	pdfminer/pdfdocument.py	/^    def init_params(self):$/;"	m	class:PDFStandardSecurityHandler
+init_params	pdfminer/pdfdocument.py	/^    def init_params(self):$/;"	m	class:PDFStandardSecurityHandlerV4
+init_params	pdfminer/pdfdocument.py	/^    def init_params(self):$/;"	m	class:PDFStandardSecurityHandlerV5
+init_resources	pdfminer/pdfinterp.py	/^    def init_resources(self, resources):$/;"	m	class:PDFPageInterpreter
+init_state	pdfminer/pdfinterp.py	/^    def init_state(self, ctm):$/;"	m	class:PDFPageInterpreter
+int_value	pdfminer/pdftypes.py	/^def int_value(x):$/;"	f
+intern	pdfminer/psparser.py	/^    def intern(self, name):$/;"	m	class:PSSymbolTable
+is_compatible	pdfminer/layout.py	/^    def is_compatible(self, obj):$/;"	m	class:LTChar
+is_empty	pdfminer/layout.py	/^    def is_empty(self):$/;"	m	class:LTComponent
+is_extractable	pdfminer/pdfdocument.py	/^    def is_extractable(self):$/;"	m	class:PDFStandardSecurityHandler
+is_hoverlap	pdfminer/layout.py	/^    def is_hoverlap(self, obj):$/;"	m	class:LTComponent
+is_modifiable	pdfminer/pdfdocument.py	/^    def is_modifiable(self):$/;"	m	class:PDFStandardSecurityHandler
+is_multibyte	pdfminer/pdffont.py	/^    def is_multibyte(self):$/;"	m	class:PDFCIDFont
+is_multibyte	pdfminer/pdffont.py	/^    def is_multibyte(self):$/;"	m	class:PDFFont
+is_printable	pdfminer/pdfdocument.py	/^    def is_printable(self):$/;"	m	class:PDFStandardSecurityHandler
+is_vertical	pdfminer/cmapdb.py	/^    def is_vertical(self):$/;"	m	class:CMapBase
+is_vertical	pdfminer/pdffont.py	/^    def is_vertical(self):$/;"	m	class:PDFCIDFont
+is_vertical	pdfminer/pdffont.py	/^    def is_vertical(self):$/;"	m	class:PDFFont
+is_voverlap	pdfminer/layout.py	/^    def is_voverlap(self, obj):$/;"	m	class:LTComponent
+isany	pdfminer/layout.py	/^        def isany(obj1, obj2):$/;"	f	function:LTLayoutContainer.group_textboxes
+isnumber	pdfminer/utils.py	/^def isnumber(x):$/;"	f
+key_obj	pdfminer/layout.py	/^        def key_obj(t):$/;"	f	function:LTLayoutContainer.group_textboxes
+keyword_name	pdfminer/psparser.py	/^def keyword_name(x):$/;"	f
+list_value	pdfminer/pdftypes.py	/^def list_value(x):$/;"	f
+literal_name	pdfminer/psparser.py	/^def literal_name(x):$/;"	f
+load	pdfminer/pdfdocument.py	/^    def load(self, parser):$/;"	m	class:PDFXRef
+load	pdfminer/pdfdocument.py	/^    def load(self, parser):$/;"	m	class:PDFXRefFallback
+load	pdfminer/pdfdocument.py	/^    def load(self, parser):$/;"	m	class:PDFXRefStream
+load_trailer	pdfminer/pdfdocument.py	/^    def load_trailer(self, parser):$/;"	m	class:PDFXRef
+lookup	pdfminer/pdfdocument.py	/^        def lookup(d):$/;"	f	function:PDFDocument.lookup_name
+lookup_name	pdfminer/pdfdocument.py	/^    def lookup_name(self, cat, key):$/;"	m	class:PDFDocument
+lzwdecode	pdfminer/lzw.py	/^def lzwdecode(data):$/;"	f
+main	pdfminer/ccitt.py	/^def main(argv):$/;"	f
+main	pdfminer/cmapdb.py	/^def main(argv):$/;"	f
+main	pdfminer/pdffont.py	/^def main(argv):$/;"	f
+make_compat_bytes	pdfminer/utils.py	/^def make_compat_bytes(in_str):$/;"	f
+make_compat_str	pdfminer/utils.py	/^def make_compat_str(in_str):$/;"	f
+matrix2str	pdfminer/utils.py	/^def matrix2str(m):$/;"	f
+method	pdfminer/ccitt.py	/^    @classmethod$/;"	c	class:BitParser
+method	pdfminer/cmapdb.py	/^    @classmethod$/;"	c	class:CMapDB
+method	pdfminer/encodingdb.py	/^    @classmethod$/;"	c	class:EncodingDB
+method	pdfminer/pdffont.py	/^    @classmethod$/;"	c	class:FontMetricsDB
+method	pdfminer/pdfpage.py	/^    @classmethod$/;"	c	class:PDFPage
+mult_matrix	pdfminer/utils.py	/^def mult_matrix(m1, m0):$/;"	f
+name2unicode	pdfminer/encodingdb.py	/^def name2unicode(name):$/;"	f
+nextline	pdfminer/psparser.py	/^    def nextline(self):$/;"	m	class:PSBaseParser
+nextobject	pdfminer/psparser.py	/^    def nextobject(self):$/;"	m	class:PSStackParser
+nexttoken	pdfminer/psparser.py	/^    def nexttoken(self):$/;"	m	class:PSBaseParser
+num_value	pdfminer/pdftypes.py	/^def num_value(x):$/;"	f
+nunpack	pdfminer/utils.py	/^def nunpack(s, default=0):$/;"	f
+output_line	pdfminer/ccitt.py	/^        def output_line(self, y, bits):$/;"	m	class:main/Parser
+output_line	pdfminer/ccitt.py	/^    def output_line(self, y, bits):$/;"	m	class:CCITTFaxDecoder
+output_line	pdfminer/ccitt.py	/^    def output_line(self, y, bits):$/;"	m	class:CCITTG4Parser
+paint_path	pdfminer/converter.py	/^    def paint_path(self, gstate, stroke, fill, evenodd, path):$/;"	m	class:PDFLayoutAnalyzer
+paint_path	pdfminer/converter.py	/^    def paint_path(self, gstate, stroke, fill, evenodd, path):$/;"	m	class:TextConverter
+paint_path	pdfminer/pdfdevice.py	/^    def paint_path(self, graphicstate, stroke, fill, evenodd, path):$/;"	m	class:PDFDevice
+pick	pdfminer/utils.py	/^def pick(seq, func, maxobj=None):$/;"	f
+place_border	pdfminer/converter.py	/^    def place_border(self, color, borderwidth, item):$/;"	m	class:HTMLConverter
+place_image	pdfminer/converter.py	/^    def place_image(self, item, borderwidth, x, y, w, h):$/;"	m	class:HTMLConverter
+place_rect	pdfminer/converter.py	/^    def place_rect(self, color, borderwidth, x, y, w, h):$/;"	m	class:HTMLConverter
+place_text	pdfminer/converter.py	/^    def place_text(self, color, text, x, y, size):$/;"	m	class:HTMLConverter
+poll	pdfminer/psparser.py	/^    def poll(self, pos=None, n=80):$/;"	m	class:PSBaseParser
+pop	pdfminer/pdfinterp.py	/^    def pop(self, n):$/;"	m	class:PDFPageInterpreter
+pop	pdfminer/psparser.py	/^    def pop(self, n):$/;"	m	class:PSStackParser
+popall	pdfminer/psparser.py	/^    def popall(self):$/;"	m	class:PSStackParser
+process	pdfminer/arcfour.py	/^    def process(self, data):$/;"	m	class:Arcfour
+process_page	pdfminer/pdfinterp.py	/^    def process_page(self, page):$/;"	m	class:PDFPageInterpreter
+push	pdfminer/pdfinterp.py	/^    def push(self, obj):$/;"	m	class:PDFPageInterpreter
+push	pdfminer/psparser.py	/^    def push(self, *objs):$/;"	m	class:PSStackParser
+put_newline	pdfminer/converter.py	/^    def put_newline(self):$/;"	m	class:HTMLConverter
+put_text	pdfminer/converter.py	/^    def put_text(self, text, fontname, fontsize):$/;"	m	class:HTMLConverter
+read_xref_from	pdfminer/pdfdocument.py	/^    def read_xref_from(self, parser, start, xrefs):$/;"	m	class:PDFDocument
+readbits	pdfminer/lzw.py	/^    def readbits(self, bits):$/;"	m	class:LZWDecoder
+receive_layout	pdfminer/converter.py	/^    def receive_layout(self, ltpage):$/;"	m	class:HTMLConverter
+receive_layout	pdfminer/converter.py	/^    def receive_layout(self, ltpage):$/;"	m	class:PDFLayoutAnalyzer
+receive_layout	pdfminer/converter.py	/^    def receive_layout(self, ltpage):$/;"	m	class:PDFPageAggregator
+receive_layout	pdfminer/converter.py	/^    def receive_layout(self, ltpage):$/;"	m	class:TextConverter
+receive_layout	pdfminer/converter.py	/^    def receive_layout(self, ltpage):$/;"	m	class:XMLConverter
+remove	pdfminer/utils.py	/^    def remove(self, obj):$/;"	m	class:Plane
+render	pdfminer/converter.py	/^        def render(item):$/;"	f	function:HTMLConverter.receive_layout
+render	pdfminer/converter.py	/^        def render(item):$/;"	f	function:TextConverter.receive_layout
+render	pdfminer/converter.py	/^        def render(item):$/;"	f	function:XMLConverter.receive_layout
+render_char	pdfminer/converter.py	/^    def render_char(self, matrix, font, fontsize, scaling, rise, cid):$/;"	m	class:PDFLayoutAnalyzer
+render_char	pdfminer/pdfdevice.py	/^    def render_char(self, matrix, font, fontsize, scaling, rise, cid):$/;"	m	class:PDFTextDevice
+render_contents	pdfminer/pdfinterp.py	/^    def render_contents(self, resources, streams, ctm=MATRIX_IDENTITY):$/;"	m	class:PDFPageInterpreter
+render_image	pdfminer/converter.py	/^    def render_image(self, name, stream):$/;"	m	class:PDFLayoutAnalyzer
+render_image	pdfminer/converter.py	/^    def render_image(self, name, stream):$/;"	m	class:TextConverter
+render_image	pdfminer/pdfdevice.py	/^    def render_image(self, name, stream):$/;"	m	class:PDFDevice
+render_string	pdfminer/pdfdevice.py	/^    def render_string(self, textstate, seq):$/;"	m	class:PDFDevice
+render_string	pdfminer/pdfdevice.py	/^    def render_string(self, textstate, seq):$/;"	m	class:PDFTextDevice
+render_string	pdfminer/pdfdevice.py	/^    def render_string(self, textstate, seq):$/;"	m	class:TagExtractor
+render_string_horizontal	pdfminer/pdfdevice.py	/^    def render_string_horizontal(self, seq, matrix, pos,$/;"	m	class:PDFTextDevice
+render_string_vertical	pdfminer/pdfdevice.py	/^    def render_string_vertical(self, seq, matrix, pos,$/;"	m	class:PDFTextDevice
+reset	pdfminer/ccitt.py	/^    def reset(self):$/;"	m	class:CCITTG4Parser
+reset	pdfminer/pdfinterp.py	/^    def reset(self):$/;"	m	class:PDFTextState
+reset	pdfminer/psparser.py	/^    def reset(self):$/;"	m	class:PSStackParser
+resolve	pdfminer/pdftypes.py	/^    def resolve(self, default=None):$/;"	m	class:PDFObjRef
+resolve1	pdfminer/pdftypes.py	/^def resolve1(x, default=None):$/;"	f
+resolve_all	pdfminer/pdftypes.py	/^def resolve_all(x, default=None):$/;"	f
+revreadlines	pdfminer/psparser.py	/^    def revreadlines(self):$/;"	m	class:PSBaseParser
+rijndaelDecrypt	pdfminer/rijndael.py	/^def rijndaelDecrypt(rk, nrounds, ciphertext):$/;"	f
+rijndaelEncrypt	pdfminer/rijndael.py	/^def rijndaelEncrypt(rk, nrounds, plaintext):$/;"	f
+rijndaelSetupDecrypt	pdfminer/rijndael.py	/^def rijndaelSetupDecrypt(key, keybits):$/;"	f
+rijndaelSetupEncrypt	pdfminer/rijndael.py	/^def rijndaelSetupEncrypt(key, keybits):$/;"	f
+rldecode	pdfminer/runlength.py	/^def rldecode(data):$/;"	f
+run	pdfminer/cmapdb.py	/^    def run(self):$/;"	m	class:CMapParser
+run	pdfminer/layout.py	/^    def run(self, obj):$/;"	m	class:IndexAssigner
+run	pdfminer/lzw.py	/^    def run(self):$/;"	m	class:LZWDecoder
+search	pdfminer/pdfdocument.py	/^        def search(entry, level):$/;"	f	function:PDFDocument.get_outlines
+search	pdfminer/pdfpage.py	/^        def search(obj, parent):$/;"	f	function:PDFPage.create_pages
+seek	pdfminer/pdfinterp.py	/^    def seek(self, pos):$/;"	m	class:PDFContentParser
+seek	pdfminer/psparser.py	/^    def seek(self, pos):$/;"	m	class:PSBaseParser
+seek	pdfminer/psparser.py	/^    def seek(self, pos):$/;"	m	class:PSStackParser
+set_attr	pdfminer/cmapdb.py	/^    def set_attr(self, k, v):$/;"	m	class:CMapBase
+set_bbox	pdfminer/layout.py	/^    def set_bbox(self, bbox):$/;"	m	class:LTComponent
+set_ctm	pdfminer/pdfdevice.py	/^    def set_ctm(self, ctm):$/;"	m	class:PDFDevice
+set_current_state	pdfminer/pdfinterp.py	/^    def set_current_state(self, state):$/;"	m	class:PDFPageInterpreter
+set_document	pdfminer/pdfparser.py	/^    def set_document(self, doc):$/;"	m	class:PDFParser
+set_objid	pdfminer/pdftypes.py	/^    def set_objid(self, objid, genno):$/;"	m	class:PDFStream
+show_group	pdfminer/converter.py	/^        def show_group(item):$/;"	f	function:HTMLConverter.receive_layout
+show_group	pdfminer/converter.py	/^        def show_group(item):$/;"	f	function:XMLConverter.receive_layout
+start_type	pdfminer/psparser.py	/^    def start_type(self, pos, type):$/;"	m	class:PSStackParser
+str_value	pdfminer/pdftypes.py	/^def str_value(x):$/;"	f
+stream_value	pdfminer/pdftypes.py	/^def stream_value(x):$/;"	f
+string_width	pdfminer/pdffont.py	/^    def string_width(self, s):$/;"	m	class:PDFFont
+tell	pdfminer/psparser.py	/^    def tell(self):$/;"	m	class:PSBaseParser
+to_unichr	pdfminer/pdffont.py	/^    def to_unichr(self, cid):$/;"	m	class:PDFCIDFont
+to_unichr	pdfminer/pdffont.py	/^    def to_unichr(self, cid):$/;"	m	class:PDFSimpleFont
+translate_matrix	pdfminer/utils.py	/^def translate_matrix(m, v):$/;"	f
+uniq	pdfminer/utils.py	/^def uniq(objs):$/;"	f
+use_cmap	pdfminer/cmapdb.py	/^    def use_cmap(self, cmap):$/;"	m	class:CMap
+use_cmap	pdfminer/cmapdb.py	/^    def use_cmap(self, cmap):$/;"	m	class:CMapBase
+vdistance	pdfminer/layout.py	/^    def vdistance(self, obj):$/;"	m	class:LTComponent
+verify_encryption_key	pdfminer/pdfdocument.py	/^    def verify_encryption_key(self, key):$/;"	m	class:PDFStandardSecurityHandler
+voverlap	pdfminer/layout.py	/^    def voverlap(self, obj):$/;"	m	class:LTComponent
+write	pdfminer/converter.py	/^    def write(self, text):$/;"	m	class:HTMLConverter
+write	pdfminer/converter.py	/^    def write(self, text):$/;"	m	class:XMLConverter
+write_footer	pdfminer/converter.py	/^    def write_footer(self):$/;"	m	class:HTMLConverter
+write_footer	pdfminer/converter.py	/^    def write_footer(self):$/;"	m	class:XMLConverter
+write_header	pdfminer/converter.py	/^    def write_header(self):$/;"	m	class:HTMLConverter
+write_header	pdfminer/converter.py	/^    def write_header(self):$/;"	m	class:XMLConverter
+write_line	pdfminer/image.py	/^    def write_line(self, y, data):$/;"	m	class:BMPWriter
+write_text	pdfminer/converter.py	/^    def write_text(self, text):$/;"	m	class:HTMLConverter
+write_text	pdfminer/converter.py	/^    def write_text(self, text):$/;"	m	class:TextConverter
+write_text	pdfminer/converter.py	/^    def write_text(self, text):$/;"	m	class:XMLConverter
