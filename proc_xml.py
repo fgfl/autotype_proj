@@ -8,13 +8,42 @@ from lxml import etree
 
 # info we are trying to find
 found_BL = ''
+found_CNTR = ''
+found_SHPR = ''
+found_CNEE = ''
+found_VSL = ''
+found_POL = ''
+found_PODS = ''
+found_PODY = ''
+found_PKGS = ''
+found_DSCP = ''
+found_WGHT = ''
+found_CBM = ''
+found_ETS = ''
 
-
-
+# flags to stop check for a keyword
+chkBL = True
+chkSHPR = True
+chkCNEE = True
+chkNTFY = True
+chkVSL = True
+chkPOR = True
+chkPOL = True
+chkPODS = True
+chkPODY = True
 
 # locations are [left, top, right, bottom]
 BLKW =  ['BILL OF LADING', 'B/L NUMBER', 'B/L NO', 'B/L-NO']
 BLLoc = [0,0,0,0]
+SHPRKW = ['SHIPPER']
+CNEEKW = ['CONSIGNEE']
+NTFYKW = ['NOTIFY']
+VSLKW = ['VESSEL']
+PORKW = ['PLACE OF RECEIPT']
+POLKW = ['PORT OF LOADING']
+PODSKW = ['PORT OF DISCHARGE']
+PODYKW = ['PLACE OF DELIVERY']
+
 
 class Usage(Exception):
     def __init__(self, msg):
@@ -36,19 +65,19 @@ def main(argv=None):
         return 0
 #----
 
+    #Create tree from xml doc
     inf = 'test_nice.xml'
     doc = etree.parse(inf)
 
-
-
-    for elt in doc.getiterator('textbox'):
+    # Only interested in the text
+    for elt in doc.iter(tag='textbox'):
         box_s = ''
-        
+        line_s = ''
         for tlelt in elt.iterchildren('textline'):
             # get the words in this line and check if it's a keyword
-            line_s = ''
             for celt in tlelt.iterchildren('text'):
                 line_s = line_s + celt.text
+                # make everything upper case less permutations
                 line_s = line_s.upper()
             for KW in BLKW:
                 if KW in line_s:
